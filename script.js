@@ -1,10 +1,10 @@
- function rolldice() {
-    let sides = document.getElementById('numSides').value;
-    let result = getDiceResults(sides)
-    document.getElementById('dice-result').innerText = 'You rolled a '+result
+ function rollDice(){
+    let sides = document.getElementById("numSides").value;
+    let result = getDiceResult(sides)
+    document.getElementById("dice-result").innerText = "You rolled a "+result
  }
 
- function getDiceResults(max) {
+ function getDiceResult(max) {
     let result = Math.ceil(Math.random() * max)
     return result
  }
