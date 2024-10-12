@@ -1,0 +1,8 @@
+body{margin: 0; background: cornflowerblue; color: white;
+    font-family: 'Times New Roman', Times, serif; text-align: center; 
+    line-height: 2;}
+label, input {font-size: 24px; padding: 0.5em;}
+#dice-chooser {margin: 2em;}
+#numSides {width: 2em; border-radius: 10px;}
+button {background: rgb(223, 48, 106); color: white; font-size: 20px; 
+    padding: 1em 2em; border-radius: 10px;}
