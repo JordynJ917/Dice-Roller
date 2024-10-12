@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>devsInc Dice Roller</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <h1>devsInc Dice Roller</h1>
+    <p>Welcome to the devsInc Dice Roller.  Just choose the number of 
+    sides on your dice and roll away!</p>
+    <div id="dice-chooser">
+        <label>How many dice sides? <input type="number" id="numSides" 
+        value="6" min="6" max="20"/></label>
+    </div>
+
+    <button onclick="rollDice()">Roll Dice</button>
+
+    <div id="dice-result"></div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
